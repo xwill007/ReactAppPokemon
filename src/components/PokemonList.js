@@ -17,7 +17,7 @@ export default function PokemonList(props) {
   return (
     <FlatList
       data={pokemons}
-      numColumns={2}
+      numColumns={3}
       showsVerticalScrollIndicator={false}
       keyExtractor={(pokemon) => String(pokemon.id)}
       renderItem={({ item }) => <PokemonCard pokemon={item} />}

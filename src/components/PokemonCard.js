@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  StyleSheet,
-  View,
-  Text,
-  Image,
-  TouchableWithoutFeedback,
-} from "react-native";
+import {StyleSheet,View,Text,Image,TouchableWithoutFeedback,} from "react-native";
 import { capitalize } from "lodash";
 import { useNavigation } from "@react-navigation/native";
 import getColorByPokemonType from "../utils/getColorByPokemonType";
@@ -54,16 +48,16 @@ const styles = StyleSheet.create({
   },
   number: {
     position: "absolute",
-    right: 10,
-    top: 10,
+    left: 6,
+    bottom: 10,
     color: "#fff",
     fontSize: 11,
   },
   name: {
     color: "#fff",
     fontWeight: "bold",
-    fontSize: 15,
-    paddingTop: 10,
+    fontSize: 17,
+    paddingTop: 0,
   },
   image: {
     position: "absolute",

@@ -6,9 +6,17 @@ export default function Stats(props) {
   const { stats } = props;
 
   const barStyles = (num) => {
-    const color = num > 49 ? "#00ac17" : "#ff3e3e";
+    let bgColorized;
+
+    if (num <= 33) {
+      bgColorized = "red";
+    } else if (num >= 34 && num < 66) {
+      bgColorized = "orange";
+    } else if (num >= 67) {
+      bgColorized = "green";
+    }
     return {
-      backgroundColor: color,
+      backgroundColor: bgColorized,
       width: `${num}%`,
     };
   };

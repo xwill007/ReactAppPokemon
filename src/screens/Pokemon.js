@@ -20,7 +20,7 @@ export default function Pokemon(props) {
         <Icon
           name="arrow-left"
           color="#fff"
-          size={20}
+          size={30}
           style={{ marginLeft: 20 }}
           onPress={navigation.goBack}
         />

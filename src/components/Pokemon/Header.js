@@ -48,21 +48,25 @@ const styles = StyleSheet.create({
   name: {
     color: "#fff",
     fontWeight: "bold",
-    fontSize: 27,
+    fontSize: 45,
+    paddingLeft: 30,
+    paddingTop: 10,
   },
   order: {
     color: "#fff",
     fontWeight: "bold",
+    fontSize: 30,
+    paddingTop: 15,
   },
   contentImg: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    top: 30,
+    top: 3,
   },
   image: {
-    width: 250,
-    height: 300,
+    width: 350,
+    height: 350,
     resizeMode: "contain",
   },
 });
